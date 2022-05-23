@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F705609281981AF0046EB6C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F705608281981AF0046EB6C /* Colors.swift */; };
+		8F70560B281996850046EB6C /* ModelTitleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F70560A281996850046EB6C /* ModelTitleComponent.swift */; };
+		8F70560D28199FB00046EB6C /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F70560C28199FB00046EB6C /* InputField.swift */; };
+		8F7C8E0628191FDF0017A108 /* ContryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7C8E0528191FDF0017A108 /* ContryCode.swift */; };
+		8F7C8E08281921980017A108 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7C8E07281921980017A108 /* JSON.swift */; };
+		8F7C8E0B281924A70017A108 /* ContryCodesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7C8E0A281924A70017A108 /* ContryCodesStore.swift */; };
+		8F7C8E0D2819376A0017A108 /* ContryCodeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7C8E0C2819376A0017A108 /* ContryCodeList.swift */; };
+		8F7C8E10281939130017A108 /* ContryCodeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7C8E0F281939130017A108 /* ContryCodeRow.swift */; };
+		8F7C8E132819394D0017A108 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7C8E122819394D0017A108 /* PreviewProvider.swift */; };
+		8F7C8E15281939690017A108 /* DeveloperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7C8E14281939690017A108 /* DeveloperPreview.swift */; };
+		8FC04A1F28194ED7008EAFA7 /* contry-code.json in Resources */ = {isa = PBXBuildFile; fileRef = 8FC04A1E28194ED7008EAFA7 /* contry-code.json */; };
 		8FEE080D281915AD00A95E77 /* CountryCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE080C281915AD00A95E77 /* CountryCodeApp.swift */; };
 		8FEE080F281915AD00A95E77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE080E281915AD00A95E77 /* ContentView.swift */; };
 		8FEE0811281915AE00A95E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FEE0810281915AE00A95E77 /* Assets.xcassets */; };
 		8FEE0814281915AE00A95E77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FEE0813281915AE00A95E77 /* Preview Assets.xcassets */; };
+		8FEE081C281915D300A95E77 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE081B281915D300A95E77 /* UIScreen.swift */; };
+		8FEE081E281915ED00A95E77 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE081D281915ED00A95E77 /* Views.swift */; };
+		8FEE08212819163700A95E77 /* ModelSlideUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE08202819163700A95E77 /* ModelSlideUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F705608281981AF0046EB6C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8F70560A281996850046EB6C /* ModelTitleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTitleComponent.swift; sourceTree = "<group>"; };
+		8F70560C28199FB00046EB6C /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
+		8F7C8E0528191FDF0017A108 /* ContryCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContryCode.swift; sourceTree = "<group>"; };
+		8F7C8E07281921980017A108 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		8F7C8E0A281924A70017A108 /* ContryCodesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContryCodesStore.swift; sourceTree = "<group>"; };
+		8F7C8E0C2819376A0017A108 /* ContryCodeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContryCodeList.swift; sourceTree = "<group>"; };
+		8F7C8E0F281939130017A108 /* ContryCodeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContryCodeRow.swift; sourceTree = "<group>"; };
+		8F7C8E122819394D0017A108 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		8F7C8E14281939690017A108 /* DeveloperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperPreview.swift; sourceTree = "<group>"; };
+		8FC04A1E28194ED7008EAFA7 /* contry-code.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "contry-code.json"; sourceTree = "<group>"; };
 		8FEE0809281915AD00A95E77 /* CountryCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FEE080C281915AD00A95E77 /* CountryCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeApp.swift; sourceTree = "<group>"; };
 		8FEE080E281915AD00A95E77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8FEE0810281915AE00A95E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FEE0813281915AE00A95E77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8FEE081B281915D300A95E77 /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
+		8FEE081D281915ED00A95E77 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		8FEE08202819163700A95E77 /* ModelSlideUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSlideUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +60,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F7C8E0128191EF00017A108 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8FEE0810281915AE00A95E77 /* Assets.xcassets */,
+				8FC04A1E28194ED7008EAFA7 /* contry-code.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8F7C8E0428191F4D0017A108 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F7C8E0528191FDF0017A108 /* ContryCode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F7C8E092819248D0017A108 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8F7C8E0A281924A70017A108 /* ContryCodesStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8F7C8E0E281938FB0017A108 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8F7C8E0F281939130017A108 /* ContryCodeRow.swift */,
+				8F70560A281996850046EB6C /* ModelTitleComponent.swift */,
+				8F70560C28199FB00046EB6C /* InputField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		8FEE0800281915AD00A95E77 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +114,13 @@
 		8FEE080B281915AD00A95E77 /* CountryCode */ = {
 			isa = PBXGroup;
 			children = (
-				8FEE080C281915AD00A95E77 /* CountryCodeApp.swift */,
-				8FEE080E281915AD00A95E77 /* ContentView.swift */,
-				8FEE0810281915AE00A95E77 /* Assets.xcassets */,
+				8FFC58AC283B4D6000A73499 /* App */,
+				8FEE081A281915B400A95E77 /* Extentions */,
+				8F7C8E0428191F4D0017A108 /* Models */,
 				8FEE0812281915AE00A95E77 /* Preview Content */,
+				8F7C8E0128191EF00017A108 /* Resources */,
+				8F7C8E092819248D0017A108 /* ViewModels */,
+				8FEE081F2819162200A95E77 /* Views */,
 			);
 			path = CountryCode;
 			sourceTree = "<group>";
@@ -63,8 +129,40 @@
 			isa = PBXGroup;
 			children = (
 				8FEE0813281915AE00A95E77 /* Preview Assets.xcassets */,
+				8F7C8E122819394D0017A108 /* PreviewProvider.swift */,
+				8F7C8E14281939690017A108 /* DeveloperPreview.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8FEE081A281915B400A95E77 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				8FEE081B281915D300A95E77 /* UIScreen.swift */,
+				8FEE081D281915ED00A95E77 /* Views.swift */,
+				8F7C8E07281921980017A108 /* JSON.swift */,
+				8F705608281981AF0046EB6C /* Colors.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		8FEE081F2819162200A95E77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F7C8E0E281938FB0017A108 /* Components */,
+				8FEE080E281915AD00A95E77 /* ContentView.swift */,
+				8FEE08202819163700A95E77 /* ModelSlideUp.swift */,
+				8F7C8E0C2819376A0017A108 /* ContryCodeList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8FFC58AC283B4D6000A73499 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8FEE080C281915AD00A95E77 /* CountryCodeApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FEE0814281915AE00A95E77 /* Preview Assets.xcassets in Resources */,
+				8FC04A1F28194ED7008EAFA7 /* contry-code.json in Resources */,
 				8FEE0811281915AE00A95E77 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +236,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F7C8E0D2819376A0017A108 /* ContryCodeList.swift in Sources */,
+				8FEE081E281915ED00A95E77 /* Views.swift in Sources */,
+				8F7C8E08281921980017A108 /* JSON.swift in Sources */,
+				8F7C8E0628191FDF0017A108 /* ContryCode.swift in Sources */,
+				8F70560B281996850046EB6C /* ModelTitleComponent.swift in Sources */,
+				8F7C8E10281939130017A108 /* ContryCodeRow.swift in Sources */,
+				8F7C8E0B281924A70017A108 /* ContryCodesStore.swift in Sources */,
+				8F7C8E132819394D0017A108 /* PreviewProvider.swift in Sources */,
+				8F70560D28199FB00046EB6C /* InputField.swift in Sources */,
+				8FEE08212819163700A95E77 /* ModelSlideUp.swift in Sources */,
+				8F705609281981AF0046EB6C /* Colors.swift in Sources */,
 				8FEE080F281915AD00A95E77 /* ContentView.swift in Sources */,
+				8F7C8E15281939690017A108 /* DeveloperPreview.swift in Sources */,
+				8FEE081C281915D300A95E77 /* UIScreen.swift in Sources */,
 				8FEE080D281915AD00A95E77 /* CountryCodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
